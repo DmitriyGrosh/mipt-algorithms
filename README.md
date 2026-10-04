@@ -7,16 +7,10 @@
 Запуск:
 
 ```
-python3 graph_analyzer.py <stats|impact|cycles|order> <путь_к_репозиторию> [файл]
-```
-
-Примеры:
-
-```
-python3 graph_analyzer.py stats /path/to/scrapy
-python3 graph_analyzer.py impact /path/to/scrapy scrapy/spidermiddlewares/base.py
-python3 graph_analyzer.py cycles /path/to/scrapy
-python3 graph_analyzer.py order /path/to/scrapy
+python3 graph_analyzer.py stats /путь/к/scrapy
+python3 graph_analyzer.py impact /путь/к/scrapy scrapy/crawler.py
+python3 graph_analyzer.py cycles /путь/к/scrapy
+python3 graph_analyzer.py order /путь/к/scrapy
 ```
 
 Путь: корень репозитория. Каталоги test, tests, __tests__, .git, venv и т.п. при обходе пропускаются.
