@@ -1,0 +1,11 @@
+Изменение scrapy/spidermiddlewares/base.py затронет файлов: 6
+
+Слой 1 (напрямую, 5 файлов):
+  - scrapy/spidermiddlewares/depth.py
+  - scrapy/spidermiddlewares/metacopy.py
+  - scrapy/spidermiddlewares/referer.py
+  - scrapy/spidermiddlewares/start.py
+  - scrapy/spidermiddlewares/urllength.py
+
+Слой 2 (через одного посредника, 1 файлов):
+  - scrapy/downloadermiddlewares/redirect.py
