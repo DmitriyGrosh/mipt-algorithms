@@ -4,7 +4,7 @@
 
 Требования: Python 3. graph_analyzer.py без внешних пакетов. verify.py нужен networkx (requirements.txt).
 
-Запуск (из папки с graph_analyzer.py):
+Запуск:
 
 ```
 python3 graph_analyzer.py <stats|impact|cycles|order> <путь_к_репозиторию> [файл]
